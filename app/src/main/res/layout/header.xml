@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@color/accent"
+    android:gravity="center"
+    android:orientation="horizontal">
+    <Button
+        android:layout_width="42dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/btn_back"
+        android:backgroundTint="#ffffff"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/ic_keyboard_arrow_left_black_24dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:text="Find Mess"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"
+        android:textColor="@color/icons"/>
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:id="@+id/btn_logout"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="3dp"
+        android:layout_marginRight="5dp"
+        android:backgroundTint="#ffffff"
+        android:background="@drawable/ic_power_settings_new_black_24dp"/>
+
+</RelativeLayout>

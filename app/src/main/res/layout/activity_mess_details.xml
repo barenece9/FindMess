@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <include layout="@layout/header"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="40dp"
+        android:paddingRight="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="?android:dividerHorizontal"
+            android:showDividers="middle"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/full_name"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="Name"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/contact_no"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="Mobile"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/location"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textSize="16sp"
+                android:gravity="center_vertical"
+                android:text="Location"/>
+
+            <TextView
+                android:id="@+id/landmark"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="Landmark"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/Address"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="Address"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/vacancy"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textSize="16sp"
+                android:gravity="center_vertical"
+                android:text="No of vacancy"/>
+
+            <TextView
+                android:id="@+id/room"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textSize="16sp"
+                android:gravity="center_vertical"
+                android:text="No of room"/>
+
+            <TextView
+                android:id="@+id/member"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textSize="16sp"
+                android:gravity="center_vertical"
+                android:text="No of member"/>
+
+            <TextView
+                android:id="@+id/seatrent"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textSize="16sp"
+                android:gravity="center_vertical"
+                android:hint="Seat Rent"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal">
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/checkbox_wifi"
+                    android:layout_weight="1"
+                    android:textSize="16sp"
+                    android:paddingLeft="5dp"
+                    android:gravity="center_vertical"
+                    android:text="Wi-Fi"
+                    android:clickable="false"/>
+
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/checkbox_foods"
+                    android:layout_weight="1"
+                    android:textSize="16sp"
+                    android:paddingLeft="5dp"
+                    android:gravity="center_vertical"
+                    android:text="Foods"
+                    android:clickable="false"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/aboutus"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textSize="16sp"
+                android:gravity="center_vertical"
+                android:hint="About Us"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="2dp"
+        android:paddingTop="2dp"
+        android:background="@color/icons">
+
+        <Button
+            android:id="@+id/btn_call"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="#448AFF"
+            android:textColor="#ffffff"
+            android:text="Call"/>
+        <Button
+            android:id="@+id/btn_whats_app"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="#448AFF"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="2dp"
+            android:singleLine="true"
+            android:text="Whatsapp" />
+        <Button
+            android:id="@+id/btn_poke"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="#448AFF"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="2dp"
+            android:text="Poke"/>
+        <Button
+            android:id="@+id/btn_map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Map"
+            android:background="#448AFF"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="2dp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/btn_visited"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Visit"
+            android:background="#448AFF"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="2dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">FinD MeSS</string>
+    <string name="forgot_password"><u>Forgot password </u>"?"</string>
+    <string name="new_mess_reg"><u>New Mess ? Register here.</u></string>
+    <string name="new_user_reg"><u>New User ? Register here.</u></string>
+</resources>
